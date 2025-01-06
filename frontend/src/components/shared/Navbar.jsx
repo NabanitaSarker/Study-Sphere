@@ -46,7 +46,7 @@ const Navbar = () => {
                                 <>
                                     <li><Link to="/">Home</Link></li>
                                     <li><Link to="/jobs">Tutoring-Offers</Link></li>
-                                    
+
                                 </>
                             )
                         }

@@ -18,13 +18,13 @@ const HeroSection = () => {
     return (
         <div className='text-center'>
             <div className='flex flex-col gap-5 my-10'>
-                
+
                 <h1 className='text-5xl font-bold'><span className='text-[#6A38C2]'>Apply & Get Your Desired Tuition Offers!</span></h1>
-                
+
                 <div className='flex w-[40%] shadow-lg border border-gray-200 pl-3 rounded-full items-center gap-4 mx-auto'>
                     <input
                         type="text"
-                        placeholder='Find your desired offers'
+                        placeholder='Find your desired Tutions'
                         onChange={(e) => setQuery(e.target.value)}
                         className='outline-none border-none w-full'
 
